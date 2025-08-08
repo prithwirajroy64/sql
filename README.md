@@ -145,3 +145,47 @@ GROUP BY job
 HAVING AVG(sal) > 1000;
 ```
 
+
+
+#✅ Weka Programs to Implement:
+## 1. Classification using J48
+Step 1:
+Open Weka → Click on Explorer
+→ Click on Open file
+→ Navigate to:
+Local Disk (C:) → Program Files → Weka → data
+→ Select any classification dataset (e.g., weather.nominal.arff) → Click Open
+
+Step 2:
+Go to the Classify tab → Click Choose
+→ Select trees → J48 (decision tree algorithm)
+→ Click Start
+
+## 2. Clustering using EM
+Step 1:
+Open Weka → Click on Explorer
+→ Click on Open file
+→ Navigate to:
+Local Disk (C:) → Program Files → Weka → data
+→ Select any clustering dataset (e.g., iris.arff) → Click Open
+
+Step 2:
+Go to the Cluster tab → Click Choose
+→ Select EM (Expectation-Maximization algorithm)
+→ Click Start
+
+## 3. Regression using Linear Regression
+Step 1:
+Open Weka → Click on Explorer
+→ Click on Open file
+→ Navigate to:
+Local Disk (C:) → Program Files → Weka → data
+→ Select a dataset suitable for regression (e.g., cpu.arff or labor.arff) → Click Open
+
+Step 2:
+Go to the Classify tab → Click Choose
+→ Select functions → LinearRegression
+→ Click Start
+
+
+
